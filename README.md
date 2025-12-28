@@ -32,9 +32,7 @@ Code outside `src/` is not included; see *How to Run* below.
 - **Finite State Machine (FSM):**  
   Encapsulates agent behaviors as states (e.g., seek ball, throw, evade) with clear transition logic.
 - **Target & Safety Decisions:**  
-  Logic in `ShotSelection.cs` evaluates potential throws based on distance, occlusion, and opponent positions.
-- **Movement Steering (FuzzyVehicle):**  
-  Handles agent movement and navigation, blending steering behaviors.
+  Logic in [ShotSelection.cs](src/ShotSelection.cs) evaluates potential throws based on distance, occlusion, and opponent positions.
 
 ---
 
@@ -68,5 +66,5 @@ To run locally:
 
 ### Quick Code Tour
 
-- **`MinionStateMachine.cs`** – Defines states and transitions based on agent status and environment.
-- **`ShotSelection.cs`** – Evaluates possible throw targets and selects the safest, highest-priority option.
+- **[MinionStateMachine.cs](src/MinionStateMachine.cs)** — Defines FSM states, transitions, and global behavior.
+- **[ShotSelection.cs](src/ShotSelection.cs)** — Evaluates throw decisions using motion prediction, occlusion checks, and safety constraints.
