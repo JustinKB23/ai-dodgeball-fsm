@@ -73,4 +73,3 @@ To run locally:
 
 - **`MinionStateMachine.cs`** – Defines states and transitions based on agent status and environment.
 - **`ShotSelection.cs`** – Evaluates possible throw targets and selects the safest, highest-priority option.
-- **`FuzzyVehicle.cs`** – Implements smooth steering behaviors for movement and obstacle avoidance.
