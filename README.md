@@ -1,6 +1,3 @@
-# ai-dodgeball-fsm
-Unity AI Dodgeball project implementing a finite state machine and throw-decision logic for autonomous agents.
-
 # AI Dodgeball — Finite State Machine Project
 
 **Autonomous dodgeball agents built with finite state machines and decision-based targeting logic in Unity.**
